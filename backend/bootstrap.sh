@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 export FLASK_APP=./src/main.py
-conda activate plasm
+source $(pipenv --venv)/bin/activate
 flask run -h 0.0.0.0
